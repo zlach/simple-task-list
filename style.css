@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#input-form{
+    display: flex;
+    background-color: #badbad;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+#input-box{
+    font-size: 2rem;
+    color: #7688A1;
+}
+
+#input-box::placeholder{
+    color: pink;
+}
+
+#input-button{
+    border: 2px dotted #A17676;
+    color: white;
+    background-color: #badbad;
+    font-size: 2rem;
+}
+
+#entries{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.entry{
+    margin: 10px;
+    background-color: pink;
+    height: 95vh;
+    max-width: 40px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: flex;
+    justify-content: space-between;
+}
+
+.x{
+    border: 2px dotted #A17676;
+}
